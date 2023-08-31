@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+.center-box{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ border: 2px solid green;
+ width: 300px;
+ height: 320px;
+ text-align: center;
+ border-radius: 40px;
+ color: green;
+}
+.text-field{
+    padding: 10px 30px;
+    margin: 20px 0;
+    border: 2px solid green;
+    border-radius: 10px;
+    font-size: 12pt;
+    color: green;
+}
+.btn-style{
+padding: 10px 30px;
+border: 1px solid green;
+background-color: green;
+color: white;
+border-radius: 10px;
+}
+
+.btn-style:hover{
+    background-color: white;
+    color: green;
+}
+
+#signup-div{
+    display: none;
+}
+
+.an-btn{
+    margin-top: 10px;
+    border: 0;
+    background-color: black;
+    color: white;
+    font-size: 10pt;
+}
